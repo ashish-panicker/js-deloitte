@@ -1,0 +1,16 @@
+Web application
+    Client ?    Web browser/ Request -> Communication form Client to Server
+    Server ?    Custom software/ Response -> Communication from Server to Client
+
+Javascript
+    Server side and client side applications
+    Front end   -> Angular/ ReactJS/ JS
+    Backend     -> Express
+    JS Runtime
+        Browser provided    -> Client side Runtime
+        NodeJS/Bun          -> Server side runtime
+
+Javascript files are saved with .js extention.
+
+To run a JS file we use the command 
+    node fileName.js
