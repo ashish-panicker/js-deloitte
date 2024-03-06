@@ -36,6 +36,33 @@ for (let course = 0; course < newCourses.length; course++) {
 }
 
 // modern for..of loop
-for (let course of newCourses){
-    console.log(course)
+for (let course of newCourses) {
+  console.log(course);
 }
+
+// forEach()
+// map()
+// filter()
+console.log();
+let values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+
+values.forEach(function (e) {
+  console.log(e);
+});
+
+console.log();
+values.forEach(function (e) {
+  console.log(e * 2);
+});
+
+console.log();
+let evenNumbers = values.filter(function (e) {
+  return e % 2 === 0;
+});
+console.log(evenNumbers);
+
+let squareNumbers = values.map(function (e) {
+  return e ** 2;
+});
+console.log();
+console.log(squareNumbers);
